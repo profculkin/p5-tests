@@ -8,3 +8,10 @@ function touchMoved() {
 	line(mouseX, mouseY, pmouseX, pmouseY);
 	return false;
 }
+
+function keyPressed(){
+    background(255);
+    if (keyCode === LEFT_ARROW) {
+        stroke("red");
+    }
+}
