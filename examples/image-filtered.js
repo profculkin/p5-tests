@@ -14,9 +14,9 @@ function draw(){
     image(img1, 0, 0, 150, 150);
     
     image(img2, 0, 150, 150, 150);
-    filter(THRESHOLD);
+    //filter(THRESHOLD);
     
-    image(img, 0, 300, 150, 150);
-    filter(GRAY);
+    image(img3, 0, 300, 150, 150);
+   // filter(GRAY);
 }
 
