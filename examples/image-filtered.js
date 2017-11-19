@@ -12,9 +12,11 @@ function setup() {
 
 function draw(){
     image(img1, 0, 0, 150, 150);
-    img2.filter(THRESHOLD);
+    
     image(img2, 0, 150, 150, 150);
-    img3.filter(GRAY);
+    filter(THRESHOLD);
+    
     image(img, 0, 300, 150, 150);
+    filter(GRAY);
 }
 
