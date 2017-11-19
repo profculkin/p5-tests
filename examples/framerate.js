@@ -27,13 +27,14 @@ function mousePressed(){
     
     //increase variable speed
     speed = speed + 5;
-    //set frameRate to speed
-    frameRate(speed);
-    //if over 50, set it back to 10.
+        //if over 50, set it back to 10.
     if (speed > 50){
         speed = 10;
     }
     
+    //set frameRate to speed
+    frameRate(speed);
+
     //show value of speed in console
     //console.log(currentRate);
 }
