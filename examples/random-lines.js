@@ -17,9 +17,9 @@ function draw() {
     line(random(50), random(height), random(width), random(height));
 }
 
-function keyPressed(){
+function mousePressed(){
     
-    strokeColor = random(255);;
+    strokeColor = random(255);
     stroke(strokeColor);
     strokeSize= random(50);
     strokeWeight(strokeSize);
