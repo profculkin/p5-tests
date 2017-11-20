@@ -30,7 +30,7 @@ function draw() {
        eyeHeight = 220;
    }
     fill(0);
-    text("Click canvas to toggle surprised face on and off", 150, 550);
+    text("Click canvas to toggle surprised face on and off", 160, 550);
 }
 
 function mousePressed(){
