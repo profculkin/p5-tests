@@ -14,7 +14,7 @@ function draw() {
   background(200);
   image(escalator,10,10, 192, 108); // draw the video frame to canvas
   filter('GRAY');
-  image(escalator,200,150); // draw a second copy to canvas
+  image(escalator,200,150, 640, 360); // draw a second copy to canvas
    text("Toggle videos on and off by clicking canvas", 10, 590);
 }
 
